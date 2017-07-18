@@ -7,56 +7,57 @@ p {   
     border: 1px solid powderblue;   
     padding: 30px;
 }
+   
+div.container {    
+    width: 100%;    
+    border: 1px solid gray;
+}
+header, footer {    
+   padding: 1em;    
+   color: white;    
+   background-color: black;    
+   clear: left;    
+   text-align: center;
+}
+nav {    
+   float: left;    
+   max-width: 160px;    
+   margin: 0;    
+   padding: 1em;
+}
+nav ul {    
+   list-style-type: none;    
+   padding: 0;
+   }   
+   nav ul a {    
+      text-decoration: none;
+}
+article {    
+   margin-left: 170px;    
+   border-left: 1px solid gray;    
+   padding: 1em;   
+   overflow: hidden;
+}
     
-ul {    
-    list-style-type: none;    
-    margin: 0;    
-    padding: 0;    
-    overflow: hidden;    
-    background-color: #333;}
 
-li {    
-    float: left;}  list-style-type: none;    
-    margin: 0;    
-    padding: 0;    
-    overflow: hidden;    
-    background-color: #333;}
-
-li {    
-    float: left;}
-  
-ul {    
-    list-style-type: none;    
-    margin: 0;    
-    padding: 0;    
-    overflow: hidden;    
-    background-color: #333;}
-
-li {    
-    float: left;}
-  
-li a {    
-    display: block;    
-    color: white;    
-    text-align: center;    
-    padding: 14px 16px;    
-    text-decoration: none;}
-  
-li a:hover {    
-  background-color: #111;}
  
 </style>
-    <h1 style="border: 1px solid powderblue;text-align:center"> Vivian</h1>
 </head>
 <body style="background-color:Bisque;">
-  
-  <ul>  
-    <li><a class="active" href="#home">Home</a></li>  
-    <li><a href="#news">News</a></li>  
-    <li><a href="#contact">Contact</a></li>  
-    <li><a href="#about">About</a></li>
-  </ul>
-  
+<div class="container">
+<header>
+     <h1 style="border: 1px solid powderblue;text-align:center"> Vivian</h1>
+</header>
+
+<nav>
+   <ul>    
+      <li><a href="#">London</a></li>    
+      <li><a href="#">Paris</a></li>    
+      <li><a href="#">Tokyo</a></li>  
+   </ul>
+ </nav>
+ 
+<article> 
 <h2 style="border: 1px solid powderblue; font-size: 300%;">About me</h2>
 <p>Hi my name is Vivian. I am 16 years old. And I live in Newark New Jersey.</p>
 <h3 style="border: 1px solid powderblue; font-size 300%;"> Websites I think are cool</h3> 
@@ -86,7 +87,9 @@ li a:hover {   
         <td>Clothes</td>
         <td>People who chew with their mouth open</td>
       </tr>
-    </table>
-      </div>
+     </table>
+   
+   </article>      
+ </div>
  </body>
 </html>
